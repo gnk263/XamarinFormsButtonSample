@@ -5,8 +5,8 @@
              x:Class="XFButton.MainPage">
 
     
-    <StackLayout Orientation="Horizontal" HorizontalOptions="Center" VerticalOptions="Start">
-        <Grid ColumnSpacing="0" HorizontalOptions="StartAndExpand">
+    <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" VerticalOptions="Start">
+        <Grid ColumnSpacing="0" HorizontalOptions="FillAndExpand">
             <Grid.RowDefinitions>
                 <RowDefinition Height="Auto" />
             </Grid.RowDefinitions>
@@ -19,14 +19,14 @@
                 <ColumnDefinition Width="*" />
                 <ColumnDefinition Width="*" />
             </Grid.ColumnDefinitions>
-                
-            <Button Text="日" Grid.Row="0" Grid.Column="0" HorizontalOptions="Center" VerticalOptions="Center"/>
-            <Button Text="月" Grid.Row="0" Grid.Column="1" HorizontalOptions="Center" VerticalOptions="Center"/>
-            <Button Text="火" Grid.Row="0" Grid.Column="2" HorizontalOptions="Center" VerticalOptions="Center"/>
-            <Button Text="水" Grid.Row="0" Grid.Column="3" HorizontalOptions="Center" VerticalOptions="Center"/>
-            <Button Text="木" Grid.Row="0" Grid.Column="4" HorizontalOptions="Center" VerticalOptions="Center"/>
-            <Button Text="金" Grid.Row="0" Grid.Column="5" HorizontalOptions="Center" VerticalOptions="Center"/>
-            <Button Text="土" Grid.Row="0" Grid.Column="6" HorizontalOptions="Center" VerticalOptions="Center"/>
+
+            <Button Text="日" Grid.Row="0" Grid.Column="0" HorizontalOptions="FillAndExpand" VerticalOptions="Center"/>
+            <Button Text="月" Grid.Row="0" Grid.Column="1" HorizontalOptions="FillAndExpand" VerticalOptions="Center"/>
+            <Button Text="火" Grid.Row="0" Grid.Column="2" HorizontalOptions="FillAndExpand" VerticalOptions="Center"/>
+            <Button Text="水" Grid.Row="0" Grid.Column="3" HorizontalOptions="FillAndExpand" VerticalOptions="Center"/>
+            <Button Text="木" Grid.Row="0" Grid.Column="4" HorizontalOptions="FillAndExpand" VerticalOptions="Center"/>
+            <Button Text="金" Grid.Row="0" Grid.Column="5" HorizontalOptions="FillAndExpand" VerticalOptions="Center"/>
+            <Button Text="土" Grid.Row="0" Grid.Column="6" HorizontalOptions="FillAndExpand" VerticalOptions="Center"/>
         </Grid>
             
     </StackLayout>
