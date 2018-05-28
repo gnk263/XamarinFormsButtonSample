@@ -4,11 +4,31 @@
              xmlns:local="clr-namespace:XFButton"
              x:Class="XFButton.MainPage">
 
-    <StackLayout>
-        <!-- Place new controls here -->
-    	<Label Text="Welcome to Xamarin.Forms!" 
-           HorizontalOptions="Center"
-           VerticalOptions="CenterAndExpand" />
+    
+    <StackLayout Orientation="Horizontal" HorizontalOptions="Center" VerticalOptions="Center">
+        <Grid ColumnSpacing="0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+                
+            <Button Text="日" Grid.Row="0" Grid.Column="0" HorizontalOptions="Center" VerticalOptions="Center"/>
+            <Button Text="月" Grid.Row="0" Grid.Column="1" HorizontalOptions="Center" VerticalOptions="Center"/>
+            <Button Text="火" Grid.Row="0" Grid.Column="2" HorizontalOptions="Center" VerticalOptions="Center"/>
+            <Button Text="水" Grid.Row="0" Grid.Column="3" HorizontalOptions="Center" VerticalOptions="Center"/>
+            <Button Text="木" Grid.Row="0" Grid.Column="4" HorizontalOptions="Center" VerticalOptions="Center"/>
+            <Button Text="金" Grid.Row="0" Grid.Column="5" HorizontalOptions="Center" VerticalOptions="Center"/>
+            <Button Text="土" Grid.Row="0" Grid.Column="6" HorizontalOptions="Center" VerticalOptions="Center"/>
+        </Grid>
+            
     </StackLayout>
-
+    
 </ContentPage>
