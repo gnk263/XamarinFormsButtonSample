@@ -5,8 +5,8 @@
              x:Class="XFButton.MainPage">
 
     
-    <StackLayout Orientation="Horizontal" HorizontalOptions="Center" VerticalOptions="Center">
-        <Grid ColumnSpacing="0">
+    <StackLayout Orientation="Horizontal" HorizontalOptions="Center" VerticalOptions="Start">
+        <Grid ColumnSpacing="0" HorizontalOptions="StartAndExpand">
             <Grid.RowDefinitions>
                 <RowDefinition Height="Auto" />
             </Grid.RowDefinitions>
