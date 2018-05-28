@@ -11,7 +11,10 @@ namespace XFButton
 		{
 			InitializeComponent();
 
-			MainPage = new MainPage();
+			MainPage = new NavigationPage(new MainPage())
+			{
+                BarBackgroundColor = Color.Pink
+            };
 		}
 
 		protected override void OnStart ()
